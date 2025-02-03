@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<body>
+<header>
+    <h1>Libreria WEB</h1>
+    <p>
+      Benvenuti nell'interfaccia per gestire i libri della nostra biblioteca
+    </p>
+    <title>Libreria WEB by Samu</title>
+  </header>
+<link rel="stylesheet" href="/assets/css/style_books.css">
+
+  
+<!-- Sezione per aggiungere un nuovo libro -->
+  <section>
+    <h2>Aggiungi un nuovo libro</h2><br>
+    
+    <form action="books" method="post">
+      
+      {{ form.hidden_tag() }}
+      
+      {{ form.title.label }} 
+      {{ form.title(size=3) }}
+
+      {{ form.author.label }}
+      {{ form.author }}
+
+      {{ form.type.label }}
+      {{ form.type }}
+
+      {{ form.year.label }}
+      {{ form.year }}
+
+      {{ form.isbn.label }}
+      {{ form.isbn }}
+
+      {{ form.submit() }}
+    </form>
+  </section>
+
+</body>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

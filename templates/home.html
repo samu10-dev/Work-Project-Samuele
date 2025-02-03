@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<title>Libreria WEB</title>
+<html> 
+<head>
+<link rel="stylesheet" href="/assets/css/style_home.css">
+</head>
+<header>
+    <h1> Libreria Web</h1>
+    <p>Benvenuti nell'applicazione per gestire la vostra biblioteca online</p>
+  </header>
+
+
+<div>
+<a href="/login" target="_blank">Vai al Login</a> 
+<a href="/register" target="_blank">Registrati Subito</a> 
+<a href="/books" target="_blank">Aggiungi Libro</a>
+</div>
+
+
+
+<section>
+  <h2>Lista dei libri in biblioteca</h2>
+  <form action="/lista_libri" method="get">
+    <button type="submit">Mostra tutti i libri</button>
+  </form>
+
+  <table>
+    <caption>
+      Libri attualmente presenti
+    </caption>
+    <thead>
+      <tr>
+        <th>Titolo</th>
+        <th>Autore</th>
+        <th>ISBN</th>
+        <th>Stato</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Esempio di riga -->
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>123456789</td>
+        <td>Disponibile</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+
