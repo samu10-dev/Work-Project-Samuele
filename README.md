@@ -1,1 +1,2 @@
-Sviluppo Progetto di una libreria Web in Python. Workk Project per corso Python
+Sviluppo Progetto di una libreria Web in Python. 
+WorkProject per corso Python
